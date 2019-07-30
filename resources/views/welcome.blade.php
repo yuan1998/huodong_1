@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{asset('css/welcome.css')}}">
 </head>
 <body>
-<div id="app">
+<div id="app" :style="{display:'block'}">
     <div class="container" ref="container">
         <div class="number-text nes-text" v-if="number">
             Number : @{{number}}
@@ -100,6 +100,11 @@
 
 </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@0.19.0/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/interactjs@1.5.4/dist/interact.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/welcome.js') }}"></script>
 
