@@ -1,8 +1,6 @@
 import swal        from 'sweetalert';
 import interact    from 'interactjs';
 import html2canvas from 'html2canvas';
-import {imageUrl} from './imageBase64.js';
-console.log("imageUrl :",imageUrl);
 
 require('./bootstrap');
 
