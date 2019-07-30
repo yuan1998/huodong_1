@@ -10,7 +10,7 @@ Route::group([
     'middleware'    => config('admin.route.middleware'),
 ], function (Router $router) {
 
-    $router->get('/', 'HuodongLogController@index')->name('admin.home');
+    $router->redirect('/', '/admin/huodong-logs');
 
     $router->resource('huodong-logs', 'HuodongLogController');
 });
