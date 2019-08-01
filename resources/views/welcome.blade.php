@@ -21,7 +21,6 @@
 <div id="app" :style="{display:'block'}">
     <div class="container" ref="container">
         <div class="number-text nes-text" v-if="number">
-            请ての文字は 7×7 ドットの範囲に収まっているため、
             Number : @{{number}}
         </div>
         <template v-if="showResult">
