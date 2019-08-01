@@ -14681,9 +14681,9 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/vagrant/Work/huodong_1/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /home/vagrant/Work/huodong_1/resources/less/app.less */"./resources/less/app.less");
-module.exports = __webpack_require__(/*! /home/vagrant/Work/huodong_1/resources/less/welcome.less */"./resources/less/welcome.less");
+__webpack_require__(/*! /Users/liuyun/Work/code/huodong_1/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Users/liuyun/Work/code/huodong_1/resources/less/app.less */"./resources/less/app.less");
+module.exports = __webpack_require__(/*! /Users/liuyun/Work/code/huodong_1/resources/less/welcome.less */"./resources/less/welcome.less");
 
 
 /***/ })

@@ -1292,7 +1292,7 @@ var app = new Vue({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/vagrant/Work/huodong_1/resources/js/welcome.js */"./resources/js/welcome.js");
+module.exports = __webpack_require__(/*! /Users/liuyun/Work/code/huodong_1/resources/js/welcome.js */"./resources/js/welcome.js");
 
 
 /***/ })

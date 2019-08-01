@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Zpix';
+  src: url(/fonts/Zpix.ttf?783bb457ed9b3294fe72f4b4bc9358a9) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+code,
+html,
+kbd,
+pre,
+samp {
+  font-family: "Press Start 2P";
+}
 body {
   margin: 0;
   padding: 0;
